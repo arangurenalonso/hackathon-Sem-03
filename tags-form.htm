@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 2-Hackathon Semana 3</title>
+</head>
+<body>
+    <form >
+        <!--
+            Etiqueta <form> </form>
+            Indica al html que todo lo que está en su interior es un; es decirsirve para crear 
+            un componente o un elemento de formulario 
+            - un formulario es importante para recibir información de parte del cliente
+        -->
+        <div>
+            <label for="PrimerInput">Ingrese su nombre</label>
+        <!--
+            <label for=""> Ingresar un texto descriptivo</label>
+            Sirve para agregar texto que hace referencia al control
+            - for: funcionalidad que cada vez que se de clic en el label manda a un input  
+        --> 
+
+            <input id="PrimerInput"   type="text" placeholder="Nombre">
+        <!--
+            <input id=""   type="" placeholder="">
+            Indica al html que se va a ingresar un dato se define que tipo de dato se va a ingresar
+            Cuenta con los siguientes atributos:
+            - placeholder: agrega un valor de plantilla
+            - type: ingresa el tipo de valor como text, date, email, number, checkbox
+            - id: identificador del  
+        -->  
+        <select name="" id="">
+            <option value="">Seleciona tu país</option>
+            <option value="1">Perú</option>
+            <option value="2">Venezuela</option>
+            <option value="3">Argentina</option>
+        </select>
+        <!--
+            <select name="" id=""></select>
+            Agraga un combobox a la formulario, para que el usuario pueda elegir multiples valores
+                > Con la etiqueta <option value=""></option> agrego los valores que van a aparecer.
+        -->  
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <!--
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            sirve para que el usuario pueda agregar datos de mas de una línea, como un comentario, 
+            necesitmaos que el usuario se explaye
+            
+        -->  
+        </div>  
+        <!--
+             <div></div>  
+            Envuelve a los elementos para que se pueda generar un salto de linea
+        -->  
+        <fieldset>
+            <legend>Nombre</legend>
+            <input type="text">
+        </fieldset>
+        <!--
+            <fieldset></fieldset> 
+            sirve para envolver y dar un diseño predefinido
+        -->  
+    </form>
+</body>
+</html>
