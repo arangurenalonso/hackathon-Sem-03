@@ -1,0 +1,32 @@
+.sobreMi h2 {
+    color: #2412ac;
+    font-size: 3vw;
+    text-align: center;
+}
+.sobreMi{
+	width: 89vw;
+    height: 35vw;
+    margin: auto;
+	background-color:#749cfb;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1vw 5vw 1vw 5vw;
+}
+.sobreMi button{
+    background-color: #d16eff;
+    border-radius: 25%;
+    color: white;
+    font-size: 1.5vw;
+    width: 14vw;
+    height: 5vw;
+}
+.sobreMi p{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 2.5vw;
+    color: #F8F8F8;
+    margin: 2vw 0 2vw 0;
+}

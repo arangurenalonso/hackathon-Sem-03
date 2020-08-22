@@ -1,0 +1,26 @@
+.portafolio h2 {
+    color:	#00ad84;
+    font-size: 3vw;
+}
+.portafolio{
+	width: 89vw;
+    height: 35vw;
+    margin: auto;
+	background-color:	#ffd233;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+    align-items:  center;
+}
+.portafolio figure{
+    width: 80%;
+    height: 80%;
+    padding: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.portafolio img{
+    width: 20%;
+    margin: 1vw;
+}
