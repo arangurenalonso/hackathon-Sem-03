@@ -1,0 +1,23 @@
+*{
+box-sizing: border-box;
+}
+label, input{
+    display: inline-block;
+    width: 200px;
+}
+.exepcion label, .exepcion input{
+    width: 20%;
+}
+form{
+    width: 38%;
+    margin: auto;
+    border: 3px solid red;
+    padding: 0 2% 2% 2%;
+}
+fieldset{
+    margin: 20px 0 20px 0;
+   
+}
+input:focus{
+    background-color: green;
+}

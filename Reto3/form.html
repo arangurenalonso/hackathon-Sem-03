@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 3</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Nombre</legend>
+            <label for="Inputnombre">Ingrese su nombre</label>
+            <input id="Inputnombre"   type="text" placeholder="Nombre">
+        </fieldset>
+        <fieldset>
+            <legend>Apellido</legend>
+            <label for="Inputapellido">Ingrese su apellido</label>
+            <input id="Inputapellido"   type="text" placeholder="Apellido">
+        </fieldset>
+        <fieldset>
+            <legend>Edad</legend>
+            <label for="Inputedad">Ingresa su edad</label>
+            <input id="Inputedad"   type="number" placeholder="NumeroTelefonico" required min="18" max="80"> 
+        </fieldset>
+        <fieldset class="exepcion">
+            <legend>Sexo</legend>
+            <label for="InputMasculino">Masculino</label>
+            <input id="InputMasculino"  name="sexo" type="radio" checked>
+            <label for="InputFemenino">Femenino</label>
+            <input id="InputFemenino"  name="sexo" type="radio" checked>
+        </fieldset>
+        <fieldset>
+            <legend>DNI</legend>
+            <label for="InputDNI">Ingresa su DNI</label>
+            <input id="InputDNI"   type="text" placeholder="Ingrese su DNI" minlength="8" maxlength="8"> 
+        </fieldset>
+        <fieldset>
+            <legend>Correo Electrónico</legend>
+            <label for="Inputcorreo">Ingresa su correo electrónico</label>
+            <input id="Inputcorreo"   type="email" placeholder="example@gmail.com">
+        </fieldset>
+        <input type="submit">
+    </form>
+</body>
+</html>
